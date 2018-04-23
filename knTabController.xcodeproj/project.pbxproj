@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11B1748207907190037439C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1747207907190037439C /* AppDelegate.swift */; };
+		C11B174A207907190037439C /* knTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1749207907190037439C /* knTabController.swift */; };
+		C11B174D207907190037439C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B174B207907190037439C /* Main.storyboard */; };
+		C11B174F207907190037439C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11B174E207907190037439C /* Assets.xcassets */; };
+		C11B1752207907190037439C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B1750207907190037439C /* LaunchScreen.storyboard */; };
+		C11B176F207907900037439C /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B175B207907900037439C /* knConstraints.swift */; };
+		C11B1779207907900037439C /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1765207907900037439C /* knUIMaker.swift */; };
+		C1A7FAA12089CA8300E1C69E /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7FAA02089CA8300E1C69E /* Doctor.swift */; };
+		C1A7FAA3208D1CD300E1C69E /* Ogenii.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7FAA2208D1CD300E1C69E /* Ogenii.swift */; };
+		C1A7FAA5208D1D3200E1C69E /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A7FAA4208D1D3200E1C69E /* PaymentController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C11B1744207907190037439C /* knTabController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knTabController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11B1747207907190037439C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C11B1749207907190037439C /* knTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knTabController.swift; sourceTree = "<group>"; };
+		C11B174C207907190037439C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11B174E207907190037439C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11B1751207907190037439C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11B1753207907190037439C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11B175B207907900037439C /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		C11B1765207907900037439C /* knUIMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
+		C1A7FAA02089CA8300E1C69E /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		C1A7FAA2208D1CD300E1C69E /* Ogenii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ogenii.swift; sourceTree = "<group>"; };
+		C1A7FAA4208D1D3200E1C69E /* PaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11B1741207907190037439C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11B173B207907190037439C = {
+			isa = PBXGroup;
+			children = (
+				C11B1746207907190037439C /* knTabController */,
+				C11B1745207907190037439C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11B1745207907190037439C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1744207907190037439C /* knTabController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11B1746207907190037439C /* knTabController */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1747207907190037439C /* AppDelegate.swift */,
+				C11B1759207907900037439C /* mustHave */,
+				C11B1749207907190037439C /* knTabController.swift */,
+				C1A7FAA2208D1CD300E1C69E /* Ogenii.swift */,
+				C1A7FAA02089CA8300E1C69E /* Doctor.swift */,
+				C1A7FAA4208D1D3200E1C69E /* PaymentController.swift */,
+				C11B174B207907190037439C /* Main.storyboard */,
+				C11B174E207907190037439C /* Assets.xcassets */,
+				C11B1750207907190037439C /* LaunchScreen.storyboard */,
+				C11B1753207907190037439C /* Info.plist */,
+			);
+			path = knTabController;
+			sourceTree = "<group>";
+		};
+		C11B1759207907900037439C /* mustHave */ = {
+			isa = PBXGroup;
+			children = (
+				C11B175B207907900037439C /* knConstraints.swift */,
+				C11B1765207907900037439C /* knUIMaker.swift */,
+			);
+			path = mustHave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11B1743207907190037439C /* knTabController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11B1756207907190037439C /* Build configuration list for PBXNativeTarget "knTabController" */;
+			buildPhases = (
+				C11B1740207907190037439C /* Sources */,
+				C11B1741207907190037439C /* Frameworks */,
+				C11B1742207907190037439C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = knTabController;
+			productName = knTabController;
+			productReference = C11B1744207907190037439C /* knTabController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11B173C207907190037439C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = kynguyen;
+				TargetAttributes = {
+					C11B1743207907190037439C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C11B173F207907190037439C /* Build configuration list for PBXProject "knTabController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C11B173B207907190037439C;
+			productRefGroup = C11B1745207907190037439C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11B1743207907190037439C /* knTabController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11B1742207907190037439C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11B1752207907190037439C /* LaunchScreen.storyboard in Resources */,
+				C11B174F207907190037439C /* Assets.xcassets in Resources */,
+				C11B174D207907190037439C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11B1740207907190037439C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11B174A207907190037439C /* knTabController.swift in Sources */,
+				C11B1748207907190037439C /* AppDelegate.swift in Sources */,
+				C1A7FAA5208D1D3200E1C69E /* PaymentController.swift in Sources */,
+				C1A7FAA3208D1CD300E1C69E /* Ogenii.swift in Sources */,
+				C11B1779207907900037439C /* knUIMaker.swift in Sources */,
+				C11B176F207907900037439C /* knConstraints.swift in Sources */,
+				C1A7FAA12089CA8300E1C69E /* Doctor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C11B174B207907190037439C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11B174C207907190037439C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11B1750207907190037439C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11B1751207907190037439C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11B1754207907190037439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C11B1755207907190037439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11B1757207907190037439C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM62LBZ4XN;
+				INFOPLIST_FILE = knTabController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11B1758207907190037439C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM62LBZ4XN;
+				INFOPLIST_FILE = knTabController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knTabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11B173F207907190037439C /* Build configuration list for PBXProject "knTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11B1754207907190037439C /* Debug */,
+				C11B1755207907190037439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11B1756207907190037439C /* Build configuration list for PBXNativeTarget "knTabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11B1757207907190037439C /* Debug */,
+				C11B1758207907190037439C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C11B173C207907190037439C /* Project object */;
+}

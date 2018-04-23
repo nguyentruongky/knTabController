@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lUM-9B-g5I">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="MuD-vf-1mp">
+            <objects>
+                <viewController id="Euo-nY-P7Q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EWF-Bw-Jw5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cV-da-y66">
+                                <rect key="frame" x="165" y="263.5" width="45" height="30"/>
+                                <state key="normal" title="Ogenii"/>
+                                <connections>
+                                    <segue destination="kco-kv-TeF" kind="push" id="EXN-2M-Qz4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJ1-Bw-93w">
+                                <rect key="frame" x="164" y="318.5" width="47" height="30"/>
+                                <state key="normal" title="Doctor"/>
+                                <connections>
+                                    <segue destination="DV0-jF-coX" kind="push" id="2eC-9X-8kT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1F-za-jqG">
+                                <rect key="frame" x="157.5" y="379.5" width="60" height="30"/>
+                                <state key="normal" title="Payment"/>
+                                <connections>
+                                    <segue destination="dV8-mf-eD0" kind="push" id="Zhb-X1-ujh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="B1F-za-jqG" firstAttribute="centerX" secondItem="EWF-Bw-Jw5" secondAttribute="centerX" id="AYa-UL-7VE"/>
+                            <constraint firstItem="yJ1-Bw-93w" firstAttribute="top" secondItem="5cV-da-y66" secondAttribute="bottom" constant="25" id="Rki-i8-LX2"/>
+                            <constraint firstItem="yJ1-Bw-93w" firstAttribute="centerX" secondItem="EWF-Bw-Jw5" secondAttribute="centerX" id="egY-RV-J80"/>
+                            <constraint firstItem="B1F-za-jqG" firstAttribute="top" secondItem="yJ1-Bw-93w" secondAttribute="bottom" constant="31" id="gbR-Sp-bBM"/>
+                            <constraint firstItem="yJ1-Bw-93w" firstAttribute="centerY" secondItem="EWF-Bw-Jw5" secondAttribute="centerY" id="leC-88-waM"/>
+                            <constraint firstItem="5cV-da-y66" firstAttribute="centerX" secondItem="EWF-Bw-Jw5" secondAttribute="centerX" id="scC-Cw-HhD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rHW-jr-WsG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hQm-xz-a16"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QT3-ac-dJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450" y="-295"/>
+        </scene>
+        <!--Ogenii Controller-->
+        <scene sceneID="wbh-JB-qGU">
+            <objects>
+                <tabBarController id="kco-kv-TeF" customClass="OgeniiController" customModule="knTabController" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2yu-7v-WCb"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8zd-8h-Iok">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iHg-gj-fir" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1481" y="-746"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9cB-Xc-uQW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lUM-9B-g5I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mxs-PO-cT7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Euo-nY-P7Q" kind="relationship" relationship="rootViewController" id="6eV-bp-IvU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1TH-j6-pHF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-387.19999999999999" y="-294.15292353823088"/>
+        </scene>
+        <!--Doctor Controller-->
+        <scene sceneID="Jee-LM-H2y">
+            <objects>
+                <tabBarController id="DV0-jF-coX" customClass="DoctorController" customModule="knTabController" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6pA-c3-ByQ"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mpn-QX-QRY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cnt-e3-6PJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1481" y="-44"/>
+        </scene>
+        <!--Payment Controller-->
+        <scene sceneID="zAf-Wa-75w">
+            <objects>
+                <tabBarController id="dV8-mf-eD0" customClass="PaymentController" customModule="knTabController" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VFa-04-PqX"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oMT-bb-lm9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rEM-IJ-RTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1481" y="661"/>
+        </scene>
+    </scenes>
+</document>
